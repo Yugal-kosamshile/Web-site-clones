@@ -1,0 +1,139 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    gap: 20px;
+}
+
+/* Heading Section */
+.heading {
+    flex: 1;
+    color: #0866ff;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.heading img {
+    height: 106px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-size: 27px;
+    color: black;
+    line-height: 1.5;
+}
+
+/* Form Section */
+.form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login input {
+    font-size: 16px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 14px;
+    width: 100%;
+}
+
+.login input:focus {
+    border: 2px solid #0866ff;
+    outline: none;
+}
+
+.log_btn {
+    background-color: #0866ff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.log_btn:hover {
+    background-color: #065be3;
+}
+
+.forgot {
+    font-size: 14px;
+    color: #0866ff;
+    text-decoration: none;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #cdd0d4;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.create {
+    font-size: 16px;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create:hover {
+    background-color: #30961c;
+}
+
+.page-info {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #606770;
+    text-align: center;
+}
