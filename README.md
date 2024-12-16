@@ -23,11 +23,9 @@ web-site-clone/
 │
 ├── README.md               # Overview of the project
 ├── LICENSE                 # License details
-├── google-clone/           # Google Search clone
+├── Facebook/               # Facebook login page clone
 │   ├── index.html          # Main HTML file
 │   ├── style.css           # Stylesheet
-│   ├── script.js           # JavaScript (if needed)
-│   └── assets/             # Images and other assets
 ├── youtube-clone/          # YouTube clone
 │   ├── index.html
 │   ├── style.css
