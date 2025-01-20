@@ -61,8 +61,9 @@ web-site-clone/
 | Website Name  | Features Included                | Status       | Technologies Used      | Live Demo       |
 |---------------|-----------------------------------|--------------|------------------------|-----------------|
 | Facebook      | Login page, responsive layout, styling | ✅ Completed | HTML, CSS             | [View](#)       |
+| YouTube       | Video grid, navbar, footer         | ✅ Completed  | HTML, CSS, JS         | [View](#)     |
+| Amazon       | Homepage layout, carousel feature  | ✅ Completed  | HTML, CSS, JS, Bootstrap   | [View](#)      |
 | Google        | Basic search interface, logo, styling | 🔜 Planned  | HTML, CSS             |  Coming Soon     |
-| YouTube       | Video grid, navbar, footer         | 🔜 Planned  | HTML, CSS, JS         | Coming Soon     |
 | Netflix       | Homepage layout, carousel feature  | 🔜 Planned  | HTML, CSS, JS         | Coming Soon     |
 | Instagram     | Profile page, grid gallery         | 🔜 Planned    | HTML, CSS, JS         | Coming Soon     |
 | Twitter       | Feed layout, sidebar              | 🔜 Planned    | HTML, CSS, JS         | Coming Soon     |
@@ -87,13 +88,3 @@ For questions or suggestions, feel free to open an issue or reach out:
 ### 🌟 Acknowledgments
 This project is inspired by popular platforms and their unique designs. All rights for original designs and branding belong to their respective owners.
 ```
-
----
-
-### Key Highlights:
-- **Overview:** Explains the purpose and features.
-- **Repository Structure:** Details file organization.
-- **How to Use:** Step-by-step guide for running clones locally.
-- **Clones Table:** Summarizes progress for each clone.
-- **Contributing:** Encourages collaboration.
-- **License:** Ensures users know usage rights.
