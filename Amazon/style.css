@@ -1,0 +1,207 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Header styles */
+.navbar {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+}
+
+/* Remove underlines from all anchor tags */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+.navbar .search-bar {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.navbar .search-bar input {
+    flex-grow: 1;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.navbar .search-bar button {
+    border: none;
+    background-color: #febd69;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.navbar .search-bar button:hover {
+    background-color: #ffa41c;
+}
+
+.navbar .nav-item a {
+    color: white;
+    font-size: 14px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.navbar .nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* Carousel styles */
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Section titles */
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    padding-left: 10px;
+    color: #333;
+}
+
+/* Product cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #232f3e;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #febd69;
+    border: none;
+    color: #333;
+    padding: 8px 12px;
+}
+
+.btn-primary:hover {
+    background-color: #ffa41c;
+}
+
+
+/* General Footer Styles */
+.footer-top {
+    text-align: center;
+    background-color: #37475a;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.back-to-top {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #232f3e;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 15px;
+    color: white;
+}
+
+.footer-column h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #232f3e;
+    border-top: 1px solid #37475a;
+}
+
+.footer-logo {
+    height: 30px;
+}
+
+.language-selector {
+    display: flex;
+    gap: 10px;
+}
+
+.language-selector .btn {
+    background-color: #37475a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.language-selector .btn:hover {
+    background-color: #575c65;
+}

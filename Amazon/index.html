@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white py-2">
+        <div class="container-fluid d-flex align-items-center">
+            <a href="#" class="navbar-brand text-white me-4">
+                <img src="./img/amazon-logo.png" alt="Logo" height="30"> Amazon Clone
+            </a>
+            <form class="d-flex flex-grow-1 me-4">
+                <select class="form-select w-auto me-2">
+                    <option value="all">All</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                </select>
+                <input type="text" class="form-control" placeholder="Search Amazon.in">
+                <button class="btn btn-warning text-dark ms-2">Search</button>
+            </form>
+            <nav class="d-flex">
+                <a href="#" class="text-white mx-2">Account</a>
+                <a href="#" class="text-white mx-2">Orders</a>
+                <a href="#" class="text-white mx-2">Cart</a>
+            </nav>
+        </div>
+        <nav class="bg-secondary py-1">
+            <div class="container-fluid">
+                <a href="#" class="text-white me-3">Best Sellers</a>
+                <a href="#" class="text-white me-3">Mobiles</a>
+                <a href="#" class="text-white me-3">Customer Service</a>
+                <a href="#" class="text-white">Electronics</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <section class="carousel slide mt-3" id="mainCarousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/Carousel1.png" class="d-block w-100" alt="Carousel 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Carousel2.png" class="d-block w-100" alt="Carousel 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Carousel3.png" class="d-block w-100" alt="Carousel 3">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Carousel4.png" class="d-block w-100" alt="Carousel 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container my-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/furniture.png" class="card-img-top" alt="Category 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Up to 60% Off</h5>
+                        <p class="card-text">Best offers on furniture from stores near you.</p>
+                        <a href="#" class="btn btn-primary">See Offers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/combo-socks.png" class="card-img-top" alt="Category 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo Packs Under ₹699</h5>
+                        <p class="card-text">Amazon Brands & more.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/cloths.png" class="card-img-top" alt="Category 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Best Sellers in Clothing</h5>
+                        <p class="card-text">Top picks in accessories and fashion.</p>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/computer-accessories.png" class="card-img-top" alt="Category 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Best Sellers in Electronics</h5>
+                        <p class="card-text">Top deals on gadgets and accessories.</p>
+                        <a href="#" class="btn btn-primary">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Featured Products -->
+<div id="deals" class="container my-5">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="./img/laptop.png" class="card-img-top" alt="Laptop">
+                <div class="card-body">
+                    <h5 class="card-title">High-End Laptop</h5>
+                    <p class="card-text">$999 - Sleek design and high performance.</p>
+                    <button class="btn btn-primary add-to-cart" data-product="Laptop">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="./img/headphone.png" class="card-img-top" alt="Headphones">
+                <div class="card-body">
+                    <h5 class="card-title">Noise-Cancelling Headphones</h5>
+                    <p class="card-text">$199 - Immerse in sound.</p>
+                    <button class="btn btn-primary add-to-cart" data-product="Headphones">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="./img/mobile.png" class="card-img-top" alt="Smartphone">
+                <div class="card-body">
+                    <h5 class="card-title">Latest Smartphone</h5>
+                    <p class="card-text">$799 - Sleek, powerful, and feature-packed.</p>
+                    <button class="btn btn-primary add-to-cart" data-product="Smartphone">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <a href="#" class="back-to-top">Back to top</a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h5>Get to Know Us</h5>
+                <a href="#">About Amazon</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Amazon Science</a>
+            </div>
+            <div class="footer-column">
+                <h5>Connect with Us</h5>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="footer-column">
+                <h5>Make Money with Us</h5>
+                <a href="#">Sell on Amazon</a>
+                <a href="#">Sell under Amazon Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+                <a href="#">Amazon Global Selling</a>
+                <a href="#">Supply to Amazon</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Fulfillment by Amazon</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Amazon Pay on Merchants</a>
+            </div>
+            <div class="footer-column">
+                <h5>Let Us Help You</h5>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">Recalls and Product Safety Alerts</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Amazon App Download</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        
+        <div class="footer-bottom">
+            <img src="./img/amazon-logo.png" alt="Amazon Logo" class="footer-logo">
+            <div class="language-selector">
+                <button class="btn">English</button>
+                <button class="btn">India</button>
+            </div>
+        </div>
+    </footer>
+    
+    <footer class="bg-dark text-center text-white py-3">
+        <p>&copy; 2025 All Rights Reserved by ❤️ Yugal Kosamshile.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
