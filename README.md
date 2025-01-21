@@ -62,7 +62,8 @@ web-site-clone/
 |---------------|-----------------------------------|--------------|------------------------|-----------------|
 | Facebook      | Login page, responsive layout, styling | ✅ Completed | HTML, CSS             | [View](https://yugal-kosamshile.github.io/Web-site-clones/Facebook-login-clone/index.html)       |
 | YouTube       | Video grid, navbar, footer         | ✅ Completed  | HTML, CSS, JS         | [View](https://yugal-kosamshile.github.io/Web-site-clones/YouTube-clone/index.html)     |
-| Amazon       | Homepage layout, carousel feature  | ✅ Completed  | HTML, CSS, JS, Bootstrap   | [View](https://yugal-kosamshile.github.io/Web-site-clones/Amazon/index.html)      |
+| Amazon       | Homepage layout, carousel feature  | ✅ Completed  | HTML, CSS, JS, Bootstrap   | [View](https://yugal-kosamshile.github.io/Web-site-clones/Amazon-clone/index.html)      |
+| Spotify        | Basic search bar, logo, styling | ✅ Completed | HTML, CSS             |  [View](https://yugal-kosamshile.github.io/Web-site-clones/Spotify-clone/index.html)     |
 | Google        | Basic search interface, logo, styling | 🔜 Planned  | HTML, CSS             |  Coming Soon     |
 | Netflix       | Homepage layout, carousel feature  | 🔜 Planned  | HTML, CSS, JS         | Coming Soon     |
 | Instagram     | Profile page, grid gallery         | 🔜 Planned    | HTML, CSS, JS         | Coming Soon     |
