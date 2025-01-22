@@ -119,14 +119,15 @@ body {
 .create {
     font-size: 16px;
     background-color: #42b72a;
-    color: white;
     border: none;
+    text-align: center;
     border-radius: 5px;
     padding: 14px;
     font-weight: bold;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
-
 .create:hover {
     background-color: #30961c;
 }
@@ -136,4 +137,12 @@ body {
     margin-top: 20px;
     color: #606770;
     text-align: center;
+}
+.page-info a{
+    color: #606770;
+    text-decoration: none;
+}
+.page-info a:hover{
+    color: #606770;
+    text-decoration: underline;
 }
