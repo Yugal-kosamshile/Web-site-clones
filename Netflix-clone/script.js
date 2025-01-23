@@ -25,4 +25,36 @@ document.querySelectorAll('.row-posters img').forEach(img => {
       });
     });
   });
-    
+
+  document.querySelectorAll('.custom-dropdown').forEach((dropdown) => {
+    const button = dropdown.querySelector('.dropdown-button');
+    const menu = dropdown.querySelector('.dropdown-menu');
+  
+    // Toggle dropdown menu visibility
+    button.addEventListener('click', () => {
+      dropdown.classList.toggle('active');
+    });
+  
+    // Handle dropdown item selection
+    menu.querySelectorAll('.dropdown-item').forEach((item) => {
+      item.addEventListener('click', () => {
+        const value = item.getAttribute('data-value');
+        const text = item.textContent.trim();
+        const icon = item.querySelector('img').src;
+  
+        // Update button text and icon
+        button.innerHTML = `<img src="${icon}" alt="Selected Icon" class="dropdown-icon"> ${text}`;
+  
+        // Close the dropdown menu
+        dropdown.classList.remove('active');
+      });
+    });
+  
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (event) => {
+      if (!dropdown.contains(event.target)) {
+        dropdown.classList.remove('active');
+      }
+    });
+  });
+  
