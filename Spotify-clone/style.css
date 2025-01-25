@@ -211,3 +211,22 @@ body {
 .card h3:hover, .card p:hover {
     color: white;
 }
+
+/* Footer styles */
+.footer {
+    background-color: #292929f5;  
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.footer p span {
+    color: #fff;  
+}
